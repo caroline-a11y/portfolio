@@ -1,0 +1,39 @@
+.two-column-wrapper {
+    display: flex;
+}
+
+.profile-content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+.profile-image-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.profile-image-wrapper img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.profile-content-wrapper div {
+    width: 80%;
+    
+}
+.right-side {
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.social-icons i {
+    margin-left: 15px;
+}
